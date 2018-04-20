@@ -1,4 +1,4 @@
-package com.example.sirwarfox.movieappremake.TabPagerFragment;
+package com.example.sirwarfox.movieappremake.tabPagerFragment;
 
 
 import android.os.Bundle;
@@ -13,19 +13,18 @@ import com.example.sirwarfox.movieappremake.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class PopularFragment extends Fragment {
+public class NowPlayingFragment extends Fragment {
 
 
-    public PopularFragment() {
+    public NowPlayingFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_popular, container, false);
+        return inflater.inflate(R.layout.fragment_now_playing, container, false);
     }
 
 }

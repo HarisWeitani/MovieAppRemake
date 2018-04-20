@@ -1,4 +1,4 @@
-package com.example.sirwarfox.movieappremake.TabPagerFragment;
+package com.example.sirwarfox.movieappremake.tabPagerFragment;
 
 
 import android.os.Bundle;

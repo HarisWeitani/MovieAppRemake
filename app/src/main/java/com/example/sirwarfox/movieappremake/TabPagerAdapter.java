@@ -5,10 +5,10 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
-import com.example.sirwarfox.movieappremake.TabPagerFragment.NowPlayingFragment;
-import com.example.sirwarfox.movieappremake.TabPagerFragment.PopularFragment;
-import com.example.sirwarfox.movieappremake.TabPagerFragment.TopRatedFragment;
-import com.example.sirwarfox.movieappremake.TabPagerFragment.UpComingFragment;
+import com.example.sirwarfox.movieappremake.tabPagerFragment.NowPlayingFragment;
+import com.example.sirwarfox.movieappremake.tabPagerFragment.PopularFragment;
+import com.example.sirwarfox.movieappremake.tabPagerFragment.TopRatedFragment;
+import com.example.sirwarfox.movieappremake.tabPagerFragment.UpComingFragment;
 
 public class TabPagerAdapter extends FragmentStatePagerAdapter {
 
