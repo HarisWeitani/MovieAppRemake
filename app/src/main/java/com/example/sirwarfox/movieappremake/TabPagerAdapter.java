@@ -5,9 +5,14 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
+import com.example.sirwarfox.movieappremake.TabPagerFragment.NowPlayingFragment;
+import com.example.sirwarfox.movieappremake.TabPagerFragment.PopularFragment;
+import com.example.sirwarfox.movieappremake.TabPagerFragment.TopRatedFragment;
+import com.example.sirwarfox.movieappremake.TabPagerFragment.UpComingFragment;
+
 public class TabPagerAdapter extends FragmentStatePagerAdapter {
 
-    String[] tabarray = new String[]{"One", "Two", "Three"};
+    String[] tabarray = new String[]{"Popular", "Top Rated", "UpComing" , "Now Playing"};
 
     public TabPagerAdapter(FragmentManager fm) {
         super(fm);
@@ -30,12 +35,14 @@ public class TabPagerAdapter extends FragmentStatePagerAdapter {
                 return new TopRatedFragment();
             case 2:
                 return new UpComingFragment();
+            case 3:
+                return new NowPlayingFragment();
         }
         return null;
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 4;
     }
 }
